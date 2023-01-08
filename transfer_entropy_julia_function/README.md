@@ -1,0 +1,3 @@
+The validation procedure was used on the transfer entropy function from the external Julia library, CoTETE.
+
+To implement this, two scripts need to be run simultaneously, one executing in Python (run_pass_julia.ipynb) and one in Julia (get_vals.jl) which pass values back and forth. The Python script simulates data and evaluates the association measure, and the Julia script calculates the pairwise transfer entropy values at the appropriate point. An alternative script needs to be used for evaluating_methods.py to handle this data input/output. Both scripts need to be started and will end once calculations are complete.
